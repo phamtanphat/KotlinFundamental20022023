@@ -31,13 +31,26 @@ fun main(args: Array<String>) {
     // Dấu + mà xử lý với chuỗi thì mang tính chất là phép nối chuỗi
     // String interpolation: Dùng để truyền biến vào 1 chuỗi
     var number1 = 5
-    var number2 = number1++
-    var number3 = ++number1
+    var number2 = 7
 
-    print("Number2 : " + number2)
-    print("Number2 : $number2")
-//    number1 = number1 + 1
-//    number1 += 1
-//    ++number1
-//    number1++
+    var result = ++number1 - --number2 + number1++ - number2++ + number2--
+    // 6 - --number2 + number1++ - number2++ + number2--; a + 6, b = 7
+    // 6 - 6 + number1++ - number2++ + number2--; a = 6, b = 6
+    // 6 - 6 + 6 - number2++ + number2--; a = 7, b = 6
+    // 6 - 6 + 6 - 6 + number2--; a = 7, b = 7
+    // 6 - 6 + 6 - 6 + 7; a = 7, b = 6
+
+    // number1 = 7, number2 = 6, result = 7
+
+    println("Number1: $number1")
+    println("Number2: $number2")
+    println("Result: $result")
+
+    // Toán tử variable++
+    // Thực hiện phép gán
+    // Thực hiện tăng giá trị variable lên thêm 1
+
+    // number1 =6, number2 = 6, result = 6
+    // number1: 7  ; number 2:6  ; number:7
+    // number1 = 5, number2 = 7, result = 7
 }
