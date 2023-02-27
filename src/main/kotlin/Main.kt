@@ -30,10 +30,10 @@ fun main(args: Array<String>) {
 //    3: Toán tử
     // Dấu + mà xử lý với chuỗi thì mang tính chất là phép nối chuỗi
     // String interpolation: Dùng để truyền biến vào 1 chuỗi
-    var number1 = 5
-    var number2 = 7
-
-    var result = ++number1 - --number2 + number1++ - number2++ + number2--
+//    var number1 = 5
+//    var number2 = 7
+//
+//    var result = ++number1 - --number2 + number1++ - number2++ + number2--
     // 6 - --number2 + number1++ - number2++ + number2--; a + 6, b = 7
     // 6 - 6 + number1++ - number2++ + number2--; a = 6, b = 6
     // 6 - 6 + 6 - number2++ + number2--; a = 7, b = 6
@@ -42,9 +42,9 @@ fun main(args: Array<String>) {
 
     // number1 = 7, number2 = 6, result = 7
 
-    println("Number1: $number1")
-    println("Number2: $number2")
-    println("Result: $result")
+//    println("Number1: $number1")
+//    println("Number2: $number2")
+//    println("Result: $result")
 
     // Toán tử variable++
     // Thực hiện phép gán
@@ -53,4 +53,37 @@ fun main(args: Array<String>) {
     // number1 =6, number2 = 6, result = 6
     // number1: 7  ; number 2:6  ; number:7
     // number1 = 5, number2 = 7, result = 7
+
+//    4: Câu điều kiện => Đưa ra các trường hợp để có thể giải quyết
+
+    // So sanh 2 số nếu
+    // a > b => in ra la 1
+    // a < b => in ra -1
+    // a == b => in ra 0
+
+//    var a = 5
+//    var b = 5
+
+    // magic number
+
+//    if (a > b) {
+//        print("A lon hon b")
+//    } else if (a < b) {
+//        print("A be hon b")
+//    } else {
+//        print("A bang b")
+//    }
+
+    // Tính bmi : cân nặng / chiều cao * chiều cao
+
+    var weight = 74.5f
+    var height = 1.75f
+
+    var bmi = ??
+
+    // In
+    // Chỉ số cơ thể: ?
+    // Tình trạng sức khỏe: ?
+
 }
+
