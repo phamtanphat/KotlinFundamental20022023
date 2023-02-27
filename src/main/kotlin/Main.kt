@@ -24,4 +24,20 @@ fun main(args: Array<String>) {
 //        ORDER BY DESC
 //    """.trimIndent()
 //    print(query)
+//    Kiểu lý luận: Boolean
+//     var isMale: Boolean = true
+
+//    3: Toán tử
+    // Dấu + mà xử lý với chuỗi thì mang tính chất là phép nối chuỗi
+    // String interpolation: Dùng để truyền biến vào 1 chuỗi
+    var number1 = 5
+    var number2 = number1++
+    var number3 = ++number1
+
+    print("Number2 : " + number2)
+    print("Number2 : $number2")
+//    number1 = number1 + 1
+//    number1 += 1
+//    ++number1
+//    number1++
 }
