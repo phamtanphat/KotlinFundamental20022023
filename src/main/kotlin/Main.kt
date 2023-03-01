@@ -76,10 +76,34 @@ fun main(args: Array<String>) {
 
     // Tính bmi : cân nặng / chiều cao * chiều cao
 
-    var weight = 74.5f
-    var height = 1.75f
+    var weight: Float = 74.5f
+    var height: Float = 1.75f
 
-    var bmi = ??
+    var bmi = weight / (height * height)
+    var message: String
+
+    var maxValueThin = 18.5f
+    var maxValueNormal = 24.9f
+    var maxValueLittleOverWeight = 29.9f
+    var maxValueFatLevel1 = 34.9f
+    var maxValueFatLeve2 = 39.9f
+
+    if (bmi < maxValueThin){
+        message = "Gầy"
+    } else if (bmi < maxValueNormal){
+        message = "Bình thường"
+    }else if (bmi < maxValueLittleOverWeight){
+        message = "Hơi béo"
+    } else if (bmi < maxValueFatLevel1){
+        message = "Béo phì cấp độ 1"
+    } else if (bmi < maxValueFatLeve2){
+        message = "Béo phì cấp độ 2"
+    } else {
+        message = "Béo phì cấp độ 3"
+    }
+
+    println("Chỉ số cơ thể: $bmi")
+    println("Tình trạng sức khỏe: $message")
 
     // In
     // Chỉ số cơ thể: ?
