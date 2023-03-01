@@ -151,13 +151,19 @@ fun main(args: Array<String>) {
     var arrNumbers = mutableListOf<Int>(1, 3, 5, 7, 9)
 
     // Thêm dữ liệu vào mảng
-    arrNumbers.add(11)
+//    arrNumbers.add(11)
 
     // In giá trị phần tử đầu tiên
-    println("Giá trị phần tử đầu tiên: ${arrNumbers[0]}")
+//    println("Giá trị phần tử đầu tiên: ${arrNumbers[0]}")
 
     // In giá trị phần tử cuối cùng
-    println("Giá trị phần tử cuối cùng: ${arrNumbers[arrNumbers.size - 1]}")
+//    println("Giá trị phần tử cuối cùng: ${arrNumbers[arrNumbers.size - 1]}")
 
+    // Xóa phần tử trong mảng
+//    arrNumbers.removeAt(0)
+
+    // Sửa giá trị
+    arrNumbers[0] = 11
+    print(arrNumbers[0])
 }
 
