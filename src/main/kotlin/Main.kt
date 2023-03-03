@@ -148,7 +148,7 @@ fun main(args: Array<String>) {
 
     // 5: Mảng
 
-    var arrNumbers = mutableListOf<Int>(1, 3, 5, 7, 9)
+//    var arrNumbers = mutableListOf<Int>(1, 3, 5, 7, 9)
 
     // Thêm dữ liệu vào mảng
 //    arrNumbers.add(11)
@@ -163,7 +163,46 @@ fun main(args: Array<String>) {
 //    arrNumbers.removeAt(0)
 
     // Sửa giá trị
-    arrNumbers[0] = 11
-    print(arrNumbers[0])
+//    arrNumbers[0] = 11
+//    print(arrNumbers[0])
+
+    // 6: Vòng lặp for
+
+    // in: trong khoảng
+//    for ((index, item) in (1..10 step 2).withIndex()) {
+//        println("Index: $index, Item: $item")
+//    }
+
+    // until: Bé hơn chứ không bằng
+//    for (item in 1 until 10) {
+//        print(item)
+//    }
+
+    // down to: Đếm ngược
+//    for (item in 10 downTo 1) {
+//        println(item)
+//    }
+
+//    var count = 0
+//
+//    for (item in 1..100){
+//        // Kiểm tra giá trị chia hết cho 2 và 5
+//        if (item % 2 == 0 && item % 5 == 0) {
+//            count++
+//            if (count == 2) {
+//                println(item)
+//                break
+//            }
+//        }
+//    }
+
+    var arr1 = mutableListOf(5, 4, 3, 2, 1)
+    var arr2 = mutableListOf(10, 20, 30, 40, 50)
+
+    for (elementArr2 in arr2) {
+        for (elementArr1 in arr1) {
+            println(elementArr1 * elementArr2)
+        }
+    }
 }
 
