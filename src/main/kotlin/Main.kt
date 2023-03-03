@@ -1,3 +1,5 @@
+import kotlin.random.Random
+
 fun main(args: Array<String>) {
 //     Dấu // gọi comment
 //     1: Khai báo biến
@@ -196,15 +198,15 @@ fun main(args: Array<String>) {
 //        }
 //    }
 
-    var arr1 = mutableListOf(5, 4, 3, 2, 1)
-    var arr2 = mutableListOf(10, 20, 30, 40, 50)
-
-    for ((index, item) in arr1.withIndex()) {
-        if (index == 0) {
-            continue
-        }
-        println(item)
-    }
+//    var arr1 = mutableListOf(5, 4, 3, 2, 1)
+//    var arr2 = mutableListOf(10, 20, 30, 40, 50)
+//
+//    for ((index, item) in arr1.withIndex()) {
+//        if (index == 0) {
+//            continue
+//        }
+//        println(item)
+//    }
 
 //    loop1@ for (elementArr2 in arr2) {
 //        println("Vòng lặp 1: $elementArr2")
@@ -213,5 +215,13 @@ fun main(args: Array<String>) {
 //            break@loop2
 //        }
 //    }
+
+    var count = Random.nextInt(10)
+
+    while (count % 2 == 0) {
+        println(count)
+        count = Random.nextInt(100)
+    }
+
 }
 
