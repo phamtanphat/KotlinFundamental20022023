@@ -199,10 +199,19 @@ fun main(args: Array<String>) {
     var arr1 = mutableListOf(5, 4, 3, 2, 1)
     var arr2 = mutableListOf(10, 20, 30, 40, 50)
 
-    for (elementArr2 in arr2) {
-        for (elementArr1 in arr1) {
-            println(elementArr1 * elementArr2)
+    for ((index, item) in arr1.withIndex()) {
+        if (index == 0) {
+            continue
         }
+        println(item)
     }
+
+//    loop1@ for (elementArr2 in arr2) {
+//        println("Vòng lặp 1: $elementArr2")
+//        loop2@ for (elementArr1 in arr1) {
+//            println("Vòng lặp 2: $elementArr1")
+//            break@loop2
+//        }
+//    }
 }
 
