@@ -230,13 +230,9 @@ fun main(args: Array<String>) {
 //    9: Object
 
     // Phuong thuc khoi tao
-    var cat = Animal()
-    cat.name = "Kity"
-    cat.weight = "1.2 Kg"
+    var cat = Animal("Kity", "1.2 Kg")
 
-    var cat2 = Animal()
-    cat2.name = "Doremon"
-    cat2.weight = "5.0 Kg"
+    var cat2 = Animal("Doremon", "5.0 Kg")
 
     println("Name: ${cat.name}, weight: ${cat.weight}")
     println("Name: ${cat2.name}, weight: ${cat2.weight}")
