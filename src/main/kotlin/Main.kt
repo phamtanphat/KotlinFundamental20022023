@@ -216,12 +216,33 @@ fun main(args: Array<String>) {
 //        }
 //    }
 
-    var count = Random.nextInt(10)
+//    7: Vòng lặp while
+//    var count = Random.nextInt(10)
+//
+//    while (count % 2 == 0) {
+//        println(count)
+//        count = Random.nextInt(100)
+//    }
 
-    while (count % 2 == 0) {
-        println(count)
-        count = Random.nextInt(100)
-    }
+//    8: Phương thức
+//    showMessage("Hello")
 
+//    9: Object
+
+    // Phuong thuc khoi tao
+    var cat = Animal()
+    cat.name = "Kity"
+    cat.weight = "1.2 Kg"
+
+    var cat2 = Animal()
+    cat2.name = "Doremon"
+    cat2.weight = "5.0 Kg"
+
+    println("Name: ${cat.name}, weight: ${cat.weight}")
+    println("Name: ${cat2.name}, weight: ${cat2.weight}")
 }
+
+//fun showMessage(message: String) {
+//    println(message)
+//}
 
