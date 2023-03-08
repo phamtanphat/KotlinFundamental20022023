@@ -15,7 +15,7 @@ open class Animal (var name: String, var weight: String) {
 //            field = value
 //        }
 
-    fun printInfo() {
+    open fun printInfo() {
         println("Name: $name, weight: $weight")
     }
 

@@ -4,4 +4,8 @@ class Cat (
     var color: String
 ): Animal(name, weight) {
 
+    override fun printInfo() {
+        super.printInfo()
+        println("Cat printInfo")
+    }
 }

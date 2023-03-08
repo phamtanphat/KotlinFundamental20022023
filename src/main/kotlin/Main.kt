@@ -245,9 +245,12 @@ fun main(args: Array<String>) {
     // phuong thuc getter va setter de truy cap
 
     // Tinh ke thua: Nâng cấp các chức năng mới
+//    var cat1 = Cat("Kity", "3 Kg", "White")
+//    cat1.printInfo()
+
+//    Tính đa hình
     var cat1 = Cat("Kity", "3 Kg", "White")
     cat1.printInfo()
-
 }
 
 //fun showMessage(message: String) {
