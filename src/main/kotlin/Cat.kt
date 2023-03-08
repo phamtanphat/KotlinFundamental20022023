@@ -1,2 +1,7 @@
-class Cat (name: String, weight: String): Animal(name, weight) {
+class Cat (
+    name: String,
+    weight: String,
+    var color: String
+): Animal(name, weight) {
+
 }

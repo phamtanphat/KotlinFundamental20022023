@@ -244,7 +244,9 @@ fun main(args: Array<String>) {
     // Tinh dong goi: The hien viec cac thong tin cua doi tuong nen su dung qua cac
     // phuong thuc getter va setter de truy cap
 
-    // Tinh ke thua:
+    // Tinh ke thua: Nâng cấp các chức năng mới
+    var cat1 = Cat("Kity", "3 Kg", "White")
+    cat1.printInfo()
 
 }
 
