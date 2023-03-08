@@ -249,8 +249,12 @@ fun main(args: Array<String>) {
 //    cat1.printInfo()
 
 //    Tính đa hình
-    var cat1 = Cat("Kity", "3 Kg", "White")
-    cat1.printInfo()
+//    var cat1 = Cat("Kity", "3 Kg", "White")
+//    cat1.printInfo()
+
+//    Tính trượu tượng
+    var pizzaStore = PizzaStore()
+    pizzaStore.orderPizza(PizzaCheese())
 }
 
 //fun showMessage(message: String) {
