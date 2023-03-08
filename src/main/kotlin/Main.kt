@@ -230,11 +230,11 @@ fun main(args: Array<String>) {
 //    9: Object
 
     // Phuong thuc khoi tao
-    var cat = Animal()
-    cat.name = "a"
-    cat.weight = "5.0 kg"
-
-    print(cat.name)
+//    var cat = Animal()
+//    cat.name = "a"
+//    cat.weight = "5.0 kg"
+//
+//    print(cat.name)
 //    cat.printInfo()
 //    var cat2 = Animal("Doremon", "5.0 Kg")
 //
@@ -243,6 +243,8 @@ fun main(args: Array<String>) {
 
     // Tinh dong goi: The hien viec cac thong tin cua doi tuong nen su dung qua cac
     // phuong thuc getter va setter de truy cap
+
+    // Tinh ke thua:
 
 }
 
